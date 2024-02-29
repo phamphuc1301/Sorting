@@ -14,6 +14,7 @@ public class SelectionSort {
                     minIndex = j;
                 }
             }
+            System.out.println("Đổi chỗ index "+ i + " với " + minIndex);
             int temp = input[i];
             input[i] = input[minIndex];
             input[minIndex] = temp;
