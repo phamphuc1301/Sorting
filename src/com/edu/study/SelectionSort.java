@@ -14,9 +14,11 @@ public class SelectionSort {
                     minIndex = j;//minIndex = j[1] = j[3]
                 }
             }
+
             int temp = input[i];//input i = input[0] = 9
             input[i] = input[minIndex];// input[0] = 6;
             input[minIndex] = temp;//input[3] = 9 => 
+
             print(input);
         }
         return input;
